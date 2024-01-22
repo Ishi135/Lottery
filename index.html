@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottery Game</title>
+    <link rel="stylesheet" href="lottery.css" />
+  </head>
+  <body>
+    <div class="outDiv">
+      <div class="sec1">
+        <img class="secImg"
+          src="https://media.licdn.com/dms/image/C4D12AQFXtJmz_Yq2VA/article-cover_image-shrink_720_1280/0/1629198964029?e=2147483647&v=beta&t=oE7Fn2J3tqQ5vnpht0S5V4MsIc9nKk2PKClRYEP9LCY"
+          alt="image"
+        />
+      </div>
+      <div class="sec2">
+        <h1>Lottery Game</h1>
+        <label class="input" for="inputNum">Enter a number (1-50):</label>
+        <input type="number" id="inputNum" min="1" max="50" />
+        <br />
+        <button onclick="play()" class="playBtn">Play</button>
+        <button onclick="reset()" class="resetBtn">Reset</button>
+        <div class="result"></div>
+      </div>
+    </div>
+
+    <script src="lottery.js"></script>
+  </body>
+</html>
